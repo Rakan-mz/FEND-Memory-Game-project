@@ -1,6 +1,8 @@
 # FEND-Memory-Game-project
 A memory game written in JavaScript for the Udacity Front-End Nanodegree Program.
 
+# Try it now Live And enjoy!
+https://cardgame-5fdb2.web.app/
 
 ## 
 **This is a simple game built to test a users memory. There's a deck of cards with different icons.**
