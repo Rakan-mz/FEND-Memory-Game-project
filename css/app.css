@@ -17,7 +17,8 @@ body {
 }
 
 body {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
+    /* background-color: #E5F720; */
+    background: #ffffff url('../img/geometry2.png'); 
     font-family: 'Coda', cursive;
 }
 
@@ -160,8 +161,8 @@ h1 {
   width: 35%;
   position: relative;
   transition: all 1s steps(4, end);
-  transition:
-  font-family: 'Coda', cursive;
+  /*transition:;*/
+  font-family:'Coda';
  }
 
  .popup h2 {
@@ -211,3 +212,288 @@ h1 {
   color: #ffffff;
   border-radius: 5px;
  }
+ 
+
+
+ /* For Tablets and larger screens
+****************/
+/* iphnoe 5 */
+
+@media screen and (min-width: 320px) and (max-height: 568px)
+ {
+    h1 {
+        /* font-family: 'Open Sans', sans-serif; */
+        /* font-weight: 300; */
+        font-size: 23px;
+    }
+    .popup{
+       width: 85%;
+
+    }
+     .container{
+         min-zoom: 10px;
+     }
+	.deck {
+           width: 95%;
+    min-height: 435px;
+	}
+
+	.deck .card {
+       height: 85px;
+    width: 58px;
+    margin-right: -8px;
+    }
+    
+    .score-panel {
+       font-size: 20px;
+    padding-left: 70px;
+        text-align: left;
+
+    }
+        .score-panel .restart {
+            float: none;
+            cursor: pointer;
+            margin-top: -28px;
+            margin-right: -22px;
+        }
+        .timer {
+            display: inline-block;
+            margin: 0 1rem;
+            margin-left: 60px;
+        }
+        .popup .content-1, .content-2 {
+            font-weight: bold;
+            font-size: larger;
+            /* max-height: 100%; */
+            overflow: auto;
+            text-align: center;
+
+}
+}
+
+/* iphone  X */
+ @media screen and (min-width: 375px) and (max-height: 812px)
+ {
+     .container{
+         min-zoom: 10px;
+     }
+	.deck {
+        width: 95%;
+        min-height: 630px;
+	}
+
+	.deck .card {
+        margin-left: -1px;
+    height: 120px;
+    width: 72px;
+    margin-right: -12px;
+    }
+    
+    .score-panel{
+        text-align: center;
+        }
+        .score-panel .restart {
+            margin-right: 20px;
+            float: right;
+            cursor: pointer;
+        }
+        .timer {
+            display: inline-block;
+            margin: 0 1rem;
+            margin-left: 60px;
+        }
+        .popup {
+        margin: 100px 5px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+            width: 95%;
+            position: relative;
+            transition: all 1s steps(4, end);
+            /* transition: font-family: 'Coda'; */
+        }
+        .popup .content-1, .content-2 {
+            font-weight: bold;
+            font-size: x-large;
+            /* max-height: 100%; */
+            overflow: auto;
+            text-align: center;
+        }
+ 
+    }
+/* iphnoe 6/7/8 plus */
+@media screen and (min-width:414px) and (max-height: 736px)
+ {
+     .container{
+         min-zoom: 10px;
+     }
+	.deck {
+        width: 93%;
+        min-height: 565px;
+	}
+
+	.deck .card {
+        margin-bottom: -37px;
+        margin-top: -45px;
+        margin-left: 6px;
+        height: 120px;
+        width: 72px;
+        margin-right: -12px;
+    }
+    
+    .score-panel{
+        text-align: center;
+        }
+        .score-panel .restart {
+            margin-right: 20px;
+            float: right;
+            cursor: pointer;
+        }
+        .timer {
+            display: inline-block;
+            margin: 0 1rem;
+            margin-left: 60px;
+        }
+}
+
+
+/* iphnoe 6/7/8 */
+
+@media screen and (min-width: 375px) and (max-height: 667px)
+ {
+    h1 {
+        /* font-family: 'Open Sans', sans-serif; */
+        /* font-weight: 300; */
+        font-size: 23px;
+    }
+     .container{
+         min-zoom: 10px;
+     }
+	.deck {
+        width: 95%;
+        min-height: 563px;
+	}
+
+	.deck .card {
+        margin-left: -1px;
+        height: 105px;
+        width: 4.5rem;
+        margin-right: -12px;
+    }
+    
+    .score-panel {
+        text-align: left;
+        font-size: 20px;
+    }
+        /*.score-panel .restart {*/
+        /*    float: none;*/
+        /*    cursor: pointer;*/
+        /*    margin-top: -28px;*/
+        /*    margin-right: -22px;*/
+        /*}*/
+        .timer {
+            display: inline-block;
+            margin: 0 1rem;
+            margin-left: 60px;
+        }
+        .popup .content-1, .content-2 {
+    font-weight: bold;
+    font-size: larger;
+    /* max-height: 100%; */
+    overflow: auto;
+    text-align: center;
+}
+}
+
+
+
+
+
+/* ipad*/
+
+@media screen and (min-width: 768px) and (min-height: 1024px)
+{
+    .container{
+        min-zoom: 10px;
+    }
+   .deck {
+    width: 733px;
+    height: 750px;
+   }
+
+   .deck .card {
+        height: 157px;
+    margin-right: 9px;
+
+}
+    .popup{
+        width:85%;
+         font-weight: bold;
+    font-size: x-large;
+    }
+    .popup .close {
+            font-size: 70px;
+    }
+   }
+   
+   
+/* ipad-pro */
+
+@media screen and (min-width: 1024px) and (min-height: 720px)
+{
+    .container{
+        min-zoom: 10px;
+    }
+   .deck {
+    width: 733px;
+    height: 750px;
+   }
+
+   .deck .card {
+        height: 157px;
+    margin-right: 9px;
+
+}
+    .popup{
+        width:85%;
+         font-weight: bold;
+         font-size: larger;
+    transform: translate(90px,70px);
+    }
+    .popup .close {
+            font-size: 70px;
+    }
+   }
+   /* laptop */
+
+@media screen and (min-width: 1290px) and (min-height: 720px){
+    /*.container{*/
+    /*    min-zoom: 10px;*/
+    /*}*/
+   .deck {
+       width: 47%;
+    height: 560px;
+   }
+
+   .deck .card {
+   margin-left: 13px;
+    height: 121px;
+    width: 125px;
+    margin-right: -12px;
+   }
+   .popup .content-1, .content-2 {
+    font-weight: bold;
+    font-size: larger;
+    /*transform: translate(90px,70px);*/
+    /* max-height: 100%; */
+    overflow: auto;
+    text-align: center;
+                                }   
+}
+   .popup .content-1, .content-2 {
+    font-weight: bold;
+    font-size: larger;
+    /* max-height: 100%; */
+    overflow: auto;
+    text-align: center;
+}
