@@ -278,8 +278,8 @@ h1 {
          min-zoom: 10px;
      }
 	.deck {
-        width: 95%;
-        min-height: 630px;
+	width: 93%;
+   	 min-height: 565px;
 	}
 
 	.deck .card {
